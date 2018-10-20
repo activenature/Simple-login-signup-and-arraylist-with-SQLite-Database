@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/loginImageid"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="101dp"
+            android:layout_marginEnd="131dp"
+            android:src="@drawable/copy" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginImageid"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:hint="Username : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/loginUsernameid"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginUsernameid"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:hint="Password : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:id="@+id/loginpasswordid"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_below="@id/loginpasswordid"
+            android:text="Login"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:id="@+id/loginButtonid"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_below="@id/loginButtonid"
+            android:text="Create New Account"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/newAccountButtonid"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

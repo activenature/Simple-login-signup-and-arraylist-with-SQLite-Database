@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Full Name : "
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/signupNameid"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Email : "
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/signupEmailId"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Username : "
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/signupUsernameid"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Phone : "
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/signupPhoneid"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Password : "
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/signupPasswordid"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@id/loginpasswordid"
+        android:text="signup"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/signupButtonId"
+        />
+
+</LinearLayout>
